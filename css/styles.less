@@ -1,0 +1,42 @@
+// Variables
+
+@brown1: #b36b3d;
+@brown2: #fccbaa;
+@brown3: #552100;
+@brown4: #803f15;
+@brown5: #d4946a;
+
+// Main Styles
+body {font-size: 16px; background: @brown1; color: @brown3;}
+
+// Typography
+h1 {margin-top: 10px; color: @brown5;}
+h2 {color: @brown2; margin-top: 0;}
+h3 {color: @brown3;}
+
+// Header
+header {background-color: @brown3; padding: 20px 0; margin: 0 auto 20px; overflow-y: auto;}
+header p {color: @brown5;}
+
+//Search
+.search {background-color: @brown3; border-radius: 8px; margin-top: 10px;}
+.search h2 {text-align: right;}
+.search input {padding: 4px; Width: 100%;}
+
+// Navagation
+.cat-list li {color: @brown2; background-color: @brown3; display: block; padding: 20px 10px; border-bottom: 1px solid @brown4;}
+.cat-list li:hover {background-color: @brown2; color: @brown3;}
+.cat-list li a {color: @brown2; text-decoration: none;}
+.cat-list li a:hover, .cat-list li:hover a {color: @brown3;}
+
+// Link List
+section {max-width: 1200px; margin: 0 auto;}
+.list-group-item {background-color: @brown2; color: @brown3; border-top: 1px solid @brown1; border-right: none; border-bottom: none; border-left: none;}
+.list-group-item:first-child {border-top: none;}
+.list-group-item a {color: @brown4;}
+
+/*1200*/
+@media only screen and (min-width: 1200px) {
+	section.col-md-12 {float: none;}
+	header .container {padding: 0;}
+}

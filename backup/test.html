@@ -1,0 +1,75 @@
+Link list
+
+Choose category or show all
+
+sort by name A/D or category if all
+
+Search
+
+Submit a link
+
+Categories:
+
+Languages
+
+Frameworks
+
+Tools
+
+Tutorials
+
+YouTube channels
+
+Editors
+
+Podcasts
+
+
+
+
+Radio button sorting
+<!-- <div class="sorting">
+          <label class="formgroup">by:
+            <select ng-model="linkOrder">
+              <option value="category">Category</option>
+              <option value="name">Name</option>
+            </select>
+          </label>
+          <label class="formgroup">Ascending <input type="radio" ng-model="direction" name="direction" checked></label>
+          <label class="formgroup">Decending <input type="radio" ng-model="direction" name="direction" value="reverse">
+        </div> -->
+
+<!-- Old Controllers -->
+// Display Categories
+	// app.controller('CatController', ['$scope', '$http', function($scope, $http){
+	// 	$http.get('js/data.json').success(function(cats) {
+	// 		$scope.categories = cats;
+	// 	});
+	// }]);
+ 
+
+	// Controller for submission form
+	// app.controller('LinkController', function(){
+	// 	this.list = {};
+
+	// 	this.addList = function(product) {
+	// 		product.lists.push(this.list);
+	// 	};
+	// });
+
+Old Cat list via ng-repeat
+<li ng-repeat="links in products | orderBy: category" ng-show="{{links.active}}">{{ links.category | uppercase }}</li>
+
+<li class="list-group-item" ng-repeat="links in products | orderBy: name" ng-show="{{links.active}}">
+
+<!-- Category nav -->
+<section class="col-md-4">
+    <h2>Categories</h2>
+    <ul class="cat-list">
+      <!-- <li ng-repeat="links in products | orderBy: category" ng-show="{{links.active}}">{{ links.category | uppercase }}</li> -->
+      <li>JS FrameWorks</li>
+      <li>Responsive Frameworks</li>
+      <li>Podcasts</li>
+      <li>Show All</li>
+    </ul>
+</section>

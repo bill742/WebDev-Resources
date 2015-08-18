@@ -1,0 +1,898 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"cat",
+				"catId"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"st",
+				"strong	Tag"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"fu",
+				"fullName"
+			],
+			[
+				"b",
+				"bold"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\" ng-app=\"myApp\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>Link Collection</title>\n\n    <script src=\"lib/angular.min.js\"></script>\n    <script src=\"lib/angular-route.min.js\"></script>\n    <script src=\"js/app.js\"></script>\n    <script src=\"js/controllers.js\"></script>\n\n    <link href=\"css/bootstrap.min.css\" rel=\"stylesheet\">\n    <link href=\"css/reset.min.css\" rel=\"stylesheet\">\n    <link href=\"css/styles.css\" rel=\"stylesheet\">\n\n    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->\n    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->\n    <!--[if lt IE 9]>\n      <script src=\"https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js\"></script>\n      <script src=\"https://oss.maxcdn.com/respond/1.4.2/respond.min.js\"></script>\n    <![endif]-->\n  </head>\n  <body ng-view ng-controller=\"ListController as collection\">\n\n    <main ng-view></main>\n\n    <footer></footer>\n\n    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js\"></script>\n    <!-- Include all compiled plugins (below), or include individual files as needed -->\n    <script src=\"lib/bootstrap.min.js\"></script>    \n  </body>\n</html>",
+			"file": "index.html",
+			"file_size": 1590,
+			"file_write_time": 130843347229257587,
+			"settings":
+			{
+				"buffer_size": 1417,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/styles.less",
+			"settings":
+			{
+				"buffer_size": 1327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 613,
+				"line_ending": "Unix",
+				"name": "# Created by https://www.gitignore.io/api/sublimet"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/list.html",
+			"settings":
+			{
+				"buffer_size": 800,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Link list\n\nChoose category or show all\n\nsort by name A/D or category if all\n\nSearch\n\nSubmit a link\n\nCategories:\n\nLanguages\n\nFrameworks\n\nTools\n\nTutorials\n\nYouTube channels\n\nEditors\n\nPodcasts\n\n\n\n\nRadio button sorting\n<!-- <div class=\"sorting\">\n          <label class=\"formgroup\">by:\n            <select ng-model=\"linkOrder\">\n              <option value=\"category\">Category</option>\n              <option value=\"name\">Name</option>\n            </select>\n          </label>\n          <label class=\"formgroup\">Ascending <input type=\"radio\" ng-model=\"direction\" name=\"direction\" checked></label>\n          <label class=\"formgroup\">Decending <input type=\"radio\" ng-model=\"direction\" name=\"direction\" value=\"reverse\">\n        </div> -->\n\n<!-- Old Controllers -->\n// Display Categories\n	// app.controller('CatController', ['$scope', '$http', function($scope, $http){\n	// 	$http.get('js/data.json').success(function(cats) {\n	// 		$scope.categories = cats;\n	// 	});\n	// }]);\n \n\n	// Controller for submission form\n	// app.controller('LinkController', function(){\n	// 	this.list = {};\n\n	// 	this.addList = function(product) {\n	// 		product.lists.push(this.list);\n	// 	};\n	// });\n\nOld Cat list via ng-repeat\n<li ng-repeat=\"links in products | orderBy: category\" ng-show=\"{{links.active}}\">{{ links.category | uppercase }}</li>\n\n<li class=\"list-group-item\" ng-repeat=\"links in products | orderBy: name\" ng-show=\"{{links.active}}\">\n\n<!-- Category nav -->\n<section class=\"col-md-4\">\n    <h2>Categories</h2>\n    <ul class=\"cat-list\">\n      <!-- <li ng-repeat=\"links in products | orderBy: category\" ng-show=\"{{links.active}}\">{{ links.category | uppercase }}</li> -->\n      <li>JS FrameWorks</li>\n      <li>Responsive Frameworks</li>\n      <li>Podcasts</li>\n      <li>Show All</li>\n    </ul>\n</section>",
+			"file": "test.html",
+			"file_size": 1784,
+			"file_write_time": 130843393798742962,
+			"settings":
+			{
+				"buffer_size": 1784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/data.json",
+			"settings":
+			{
+				"buffer_size": 895,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 295,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 117.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/link-collection",
+		"/var/www/html/link-collection/css",
+		"/var/www/html/link-collection/js",
+		"/var/www/html/link-collection/partials"
+	],
+	"file_history":
+	[
+		"/var/www/html/bill742.github.io/.gitignore",
+		"/var/www/html/742current/css/styles.css",
+		"/var/www/html/742current/css/styles.less",
+		"/var/www/html/link-collection/test.html",
+		"/var/www/html/link-collection/css/styles.css",
+		"/var/www/html/bill742.github.io/css/styles.less",
+		"/var/www/html/link-collection/css/reset.css",
+		"/var/www/html/link-collection/css/reset.min.css",
+		"/var/www/html/link-collection/css/styles.less",
+		"/home/bill/.config/sublime-text-3/Packages/LESS/README.md",
+		"/var/www/html/bill742.github.io/css/styles.css",
+		"/var/www/html/742current/index.html",
+		"/var/www/html/bill742.github.io/index.html",
+		"/var/www/html/link-collection/partials/list.html",
+		"/var/www/html/link-collection/partials/categories.html",
+		"/var/www/html/link-collection/index.html",
+		"/var/www/html/link-collection/js/app.js",
+		"/var/www/html/testing/codeschool/angular/index.html",
+		"/var/www/html/testing/codeschool/angular/app.js",
+		"/var/www/html/testing/codeschool/angular/product-panels.html",
+		"/var/www/html/testing/codeschool/angular/products.js",
+		"/var/www/html/testing/lynda/up-running-bootstrap/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 2/02_01/grid.html",
+		"/var/www/html/testing/lynda/php/php-ver.php",
+		"/var/www/html/testing/lynda/php/2-3.php",
+		"/var/www/html/testing/AngularTest/js/controllers/MainController.js",
+		"/var/www/html/testing/AngularTest/index.html",
+		"/var/www/html/testing/AngularTest/js/app.js",
+		"/home/bill/index.php",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/03_03.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/03_04.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/03_01.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/03_02.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/02_05.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/02_06.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/02_07.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/02_03.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/02_04.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/02_02.html",
+		"/var/www/html/testing/AngularTest/js/vendor/angular.min.js",
+		"/var/www/html/testing/AngularTest/css/main.css",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-04/js/flowerApp.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-03/start/js/flowerApp.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-03/start/js/collections/allFlowers.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-04/js/collections/allFlowers.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-03/start/js/models/singleFlowerModel.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-04/js/models/singleFlowerModel.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-04/index.html",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/snippets.txt",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-03/start/js/libs/backbone.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-02/start/js/models/singleFlowerModel.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-02/start/js/flowerApp.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-01/start/js/flowerApp.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/02/02-01/start/js/models/singleFlowerModel.js",
+		"/var/www/html/testing/lynda/up-running-backbone/Exercise Files/01/01-03/index.html",
+		"/var/www/html/testing/ember/js/router.js",
+		"/var/www/html/testing/ember/js/application.js",
+		"/var/www/html/testing/ember/js/models/todo.js",
+		"/var/www/html/testing/ember/js/controllers/todos_controller.js",
+		"/var/www/html/testing/ember/index.html",
+		"/var/www/html/testing/ember/style.css",
+		"/var/www/html/testing/lynda/intro-php/config.php",
+		"/var/www/html/testing/lynda/intro-php/test.php",
+		"/var/www/html/testing/udemy/php/index.php",
+		"/var/www/html/testing/udemy/php/form-processor.php",
+		"/var/www/html/Udemy/php/index.php",
+		"/var/www/html/testing/nodejs/test.html",
+		"/var/www/html/testing/nodejs/program.js",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/index.html",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/js/respond.min.js",
+		"/var/www/html/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/css/custom.css",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/Ch1/FirstSassExample.html",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/Ch1/styles.scss",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/Ch2/mixin_styles.less",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/ExampleSnippets.txt",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/Ch2/mixin_styles.css",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/Ch2/LESS_SampleDoc.html",
+		"/var/www/html/testing/codepen/01/index.html",
+		"/var/www/html/testing/codepen/01/styles.css",
+		"/var/www/html/testing/dom-scripting/test.js",
+		"/var/www/html/testing/dom-scripting/index.html",
+		"/var/www/html/testing/lynda/less-sass/Ex_Files_CSS_LESS_SASS/Exercise Files/Ch1/styles.css",
+		"/var/www/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/grid.html",
+		"/var/www/testing/lynda/up-running-bootstrap/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 1/01_05/index.html",
+		"/var/www/testing/lynda/up-running-bootstrap/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 1/01_04/index.html",
+		"/var/www/testing/lynda/up-running-bootstrap/Ex_Files_UaR_Bootstp3/Exercise Files/Chapter 1/01_04/additional head code.txt",
+		"/var/www/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/css/bootstrap-theme.css",
+		"/var/www/742/wp-content/themes/742theme/header.php",
+		"/var/www/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/index.html",
+		"/var/www/testing/lynda/up-running-bootstrap/bootstrap-3.2.0-dist/js/bootstrap.js",
+		"/var/www/testing/nodejs/test.html",
+		"/var/www/testing/nodejs/program.js",
+		"/tmp/fz3temp-1/index.html",
+		"/tmp/fz3temp-1/styles-min.css",
+		"/var/www/742/current/index.html",
+		"/var/www/742/wp-config.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/headerNew.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/styleOmit.css",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/assets/js/bootstrap.js",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/assets/js/bootstrapwp.demo.js",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/assets/js/bootstrap.min.js",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/assets/css/bootstrapwp.css",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/headerOld.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/header.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/functions.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/templates-pages/page-blog.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/single.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/headerOmit.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/footer.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/archive.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/page.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/templates-pages/page-full-width.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/author.php",
+		"/var/www/verbalbrew/.htaccess",
+		"/var/www/verbalbrew/.htaccessBakup",
+		"/var/www/verbalbrew/wp-config.php",
+		"/var/www/verbalbrew/custom.css",
+		"/var/www/thetelevixen/wp-content/themes/arras/pagetpl-onecolumn.php",
+		"/var/www/verbalbrew/wp-content/themes/bootstrapwp/templates-pages/page-home.php",
+		"/home/bill/Desktop/vb/wp-content/themes/rachelbaker-bootstrapwp-Twitter-Bootstrap-for-WordPress-0c06b68/templates-pages/page-home.php",
+		"/media/bill/New Free Space/Websites/VerbalBrew/bootstrapwp-Twitter-Bootstrap-for-WordPress-master/page-blog.php",
+		"/media/bill/New Free Space/Websites/VerbalBrew/bootstrapwp-Twitter-Bootstrap-for-WordPress-master/page.php",
+		"/var/www/verbalbrew/wp-settings.php",
+		"/home/bill/Desktop/vb/wp-content/themes/rachelbaker-bootstrapwp-Twitter-Bootstrap-for-WordPress-0c06b68/page.php",
+		"/home/bill/Desktop/vb/wp-content/themes/rachelbaker-bootstrapwp-Twitter-Bootstrap-for-WordPress-0c06b68/templates-pages/page-full-width.php",
+		"/home/bill/Desktop/vb/wp-content/themes/rachelbaker-bootstrapwp-Twitter-Bootstrap-for-WordPress-0c06b68/functions.php",
+		"/home/bill/Desktop/vb/wp-content/themes/rachelbaker-bootstrapwp-Twitter-Bootstrap-for-WordPress-0c06b68/header.php",
+		"/var/www/thetelevixen/wp-config.php",
+		"/var/www/verbalbrew/README"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/var/www/verbalbrew/wp-content/themes/bootstrapwp",
+			"/var/www/verbalbrew",
+			"/var/www/thetelevixen/wp-content/themes/arras/js"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ng-click=\"doSomething(item)",
+			"ng",
+			"category",
+			"artist",
+			"artis",
+			"link",
+			"href",
+			"#search-4",
+			"#search-3",
+			"/verbalbrew/category/",
+			"#search-3",
+			"search",
+			"class=\"social\" target=\"_blank\"",
+			"dropdown",
+			"subhead",
+			".navbar .nav > li",
+			"search re",
+			"search results",
+			"tag",
+			"tags",
+			"tags: ",
+			"thumb",
+			"z-",
+			"bootstrapwp_posted_on",
+			"h1 class=\"subhead\"",
+			"nav-below",
+			".span6",
+			".span2",
+			"class=\"post-title\"",
+			"bootstrapwp_posted_on",
+			"class=\"meta\"",
+			"meta",
+			"postlist_title",
+			"-",
+			"bootstrapwp_autoset_featured_img",
+			"/vb/wordpress/",
+			"\"verbalbrew/wp-content/",
+			"\"/wp-content/",
+			"/bootstrapwp-Twitter-Bootstrap-for-WordPress-master/",
+			"/wordpress/wp-content/",
+			"#menu-news-menu-container",
+			"#menu-news-menu-1",
+			".sf-menu",
+			"alt"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"link",
+			"url",
+			"#search-3",
+			"#search-4",
+			"/category/",
+			"#search-4",
+			"target=\"_blank\"",
+			"/verbalbrew/",
+			"\"/verbalbrew/wp-content/",
+			"\"verbalbrew/wp-content/",
+			"/bootstrapwp/",
+			"/wp-content/",
+			".menu-news-menu-container",
+			"#menu-news-menu-container",
+			".sub-menu"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1045,
+								1045
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/styles.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1055,
+								1055
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 72.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": ".gitignore",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# Created by https://www.gitignore.io/api/sublimet",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "partials/list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "test.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "js/data.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 895,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 295,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								276,
+								276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "link-colection.sublime-project",
+	"replace":
+	{
+		"height": 74.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 257.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
