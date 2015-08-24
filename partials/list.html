@@ -1,23 +1,23 @@
 <header>
     <div class="container">
-      <div class="col-md-8">
-        <h1>Web Dev Resources</h1>
-        <p>A collection of links for everyday web development</p>
-      </div>
-      <div class="col-md-4 search">
-          <h2>Search</h2>
-          <input ng-model="query" placeholder="Search for resources:" autofocus>
-      </div>
+        <div class="col-md-8">
+            <h1>Web Dev Resources</h1>
+            <p>A collection of links for everyday web development</p>
+        </div>
+        <div class="col-md-4 search">
+            <h2>Search</h2>
+            <input ng-model="query" placeholder="Search for resources:" autofocus>
+        </div>
     </div>
 </header>
-
 <section class="col-md-12">
-    <!-- <h2>Displaying all results</h2> -->
     <ul class="list-group">
-      <li class="list-group-item" ng-repeat="links in products | filter: query | orderBy: 'name'" ng-show="{{ links.active }}">
-        <h3>{{ links.name }}</h3>
-        <p><strong>Category:</strong> {{ links.category }}</p>
-        <p><a href="http://{{ links.url }}" target="_blank">{{ links.url }}</a></p>
-      </li>
+        <li class="list-group-item" ng-repeat="l in links | filter: query | orderBy: 'name'" ng-show="{{ l.active }}">
+            <h3>{{ l.name }}</h3>
+            <p><strong>Category:</strong> {{ l.category }}</p>
+            <p><a href="http://{{ l.url }}" target="_blank">{{ l.url }}</a></p>
+        </li>
     </ul>
+    <h2 class="text-center" ng-show="!links.length">No results available</h2>
 </section>
+<footer></footer>

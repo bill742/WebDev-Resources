@@ -3,8 +3,8 @@
 
 	// Display submitted links
 	linkControllers.controller('ListController', ['$scope', '$http', function($scope, $http){
-		$http.get('js/data.json').success(function(links) {
-			$scope.products = links;
+		$http.get('js/data.json').success(function(l) {
+			$scope.links = l;
 		});
 	}]);
 
