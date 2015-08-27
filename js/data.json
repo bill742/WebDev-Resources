@@ -2,44 +2,65 @@
 	{
 	    "name": "Angular JS",
 	    "url": "www.angularjs.org",
-	    "category": "JS Frameworks",
-	    "active": "true",
-	    "category_url": "00"
+	    "category": "Frameworks",
+	    "subcategory": "JS Frameworks",
+	    "active": "true"
 	}, 
 	{
 	    "name": "Ember",
 	    "url": "www.emberjs.com",
-	    "category": "JS Frameworks",
-	    "active": "true",
-	    "category_url": "00"
+	    "category": "Frameworks",
+	    "subcategory": "JS Frameworks",
+	    "active": "true"
 	},
 	{
 	    "name": "Bootstrap",
 	    "url": "getbootstrap.com",
-	    "category": "Responsive Frameworks",
-	    "active": "true",
-	    "category_url": "01"
+	    "category": "Frameworks",
+	    "subcategory": "Responsive Frameworks",
+	    "active": "true"
 	},
 	{
 	    "name": "Foundation",
 	    "url": "foundation.zurb.com",
-	    "category": "Responsive Frameworks",
-	    "active": "true",
-	    "category_url": "01"
+	    "category": "Frameworks",
+	    "subcategory": "Responsive Frameworks",
+	    "active": "true"
 	},
 	{
 	    "name": "ShopTalkShow",
 	    "url": "shoptalkshow.com",
 	    "category": "Podcasts",
-	    "active": "true",
-	    "category_url": "02"
+	    "subcategory": " ",
+	    "active": "true"
+	},
+	{
+	    "name": "Yeoman",
+	    "url": "yeoman.io",
+	    "category": "Tools",
+	    "subcategory": " ",
+	    "active": "true"
+	},
+	{
+	    "name": "Scotch",
+	    "url": "scotch.io",
+	    "category": "Tutorials",
+	    "subcategory": " ",
+	    "active": "true"
+	},
+	{
+	    "name": "CodeSchool",
+	    "url": "codeschool.com",
+	    "category": "Tutorials",
+	    "subcategory": " ",
+	    "active": "true"
 	},
 	{
 	    "name": "A Test Link",
 	    "url": "nosite.com",
 	    "category": "Misc",
-	    "active": "false",
-	    "category_url": "03"
+	    "subcategory": " ",
+	    "active": "false"
 	}
 
 ]

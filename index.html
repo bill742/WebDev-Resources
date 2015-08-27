@@ -23,9 +23,40 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body ng-view ng-controller="ListController as collection">
+  <body>
 
-    <main ng-view></main>
+    <header>
+      <div class="container">
+          <div class="col-md-8">
+              <h1>Web Dev Resources</h1>
+              <p>A collection of links for everyday web development</p>
+          </div>
+          <div class="col-md-4 search">
+              <h2>Search</h2>
+              <input ng-model="query" placeholder="Search for resources:" autofocus>
+          </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="col-md-4">
+        <ul class="cat-list">
+            <li><a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All</a></li>
+            <li><a href="#fw"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Frameworks</a></li>
+            <li><a href="#tools"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>Tools</a></li>
+            <li><a href="#podcasts"><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>Podcasts</a></li>
+            <li><a href="#tutorials"><span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span>Tutorials</a></li>
+        </ul>
+      </section>
+
+      <section class="col-md-8" ng-view>
+        <h2 class="text-center" ng-show="!links.length">No results available</h2>
+      </section>
+
+    </main>
+
+    <footer>Footer</footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

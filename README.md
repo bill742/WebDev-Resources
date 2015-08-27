@@ -7,7 +7,7 @@ The app uses Angular JS to import, display and sort the data. The search functio
 
 **TODO:**
 + Add more links and categories
-+ Add functionality to filter results by category
-+ Add navagation for categories
++ Add functionality to filter results by category and subcategory
++ ~~Add navagation for categories~~
 + Add form to submit new resources
 + Display message if no search results found
