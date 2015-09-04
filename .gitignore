@@ -29,3 +29,6 @@ sftp-config.json
 
 # Backup Folder #
 /backup
+
+#Node modules
+/node_modules

@@ -1,0 +1,30 @@
+{
+  "name": "webdev-resources",
+  "version": "1.0.0",
+  "description": "Angular app that displays a collection of links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bill742/WebDev-Resources.git"
+  },
+  "keywords": [
+    "webdev",
+    "resources",
+    "angular",
+    "links"
+  ],
+  "author": "Bill Dean",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bill742/WebDev-Resources/issues"
+  },
+  "homepage": "https://github.com/bill742/WebDev-Resources#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.1",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  }
+}
