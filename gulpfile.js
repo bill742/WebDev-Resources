@@ -1,11 +1,28 @@
 var gulp = require('gulp'),
-	sass = require('gulp-sass'),
-	browserSync = require('browser-sync');;
+    sass = require('gulp-sass'),
+    gulpif = require('gulp-if'),
+    browserSync = require('browser-sync');
+
+var env,
+    outputDir,
+    sassStyle;
+
+env = process.env.NODE_ENV || 'production';
+
+if (env==='development') {
+  outputDir = 'development/';
+  sassStyle = 'expanded';
+} else {
+  outputDir = 'production/';
+  sassStyle = 'compressed';
+}
 
 gulp.task('sass', function(){
   return gulp.src('development/css/styles.scss')
-    .pipe(sass())
-    .pipe(gulp.dest('development/css'))
+    .pipe(sass({
+      outputStyle: sassStyle
+    }))
+    .pipe(gulp.dest(outputDir + 'css'))
     .pipe(browserSync.reload({
       stream: true
     }))
@@ -25,3 +42,5 @@ gulp.task('browserSync', function() {
     },
   })
 })
+
+gulp.task('default', ['sass', 'watch']);
