@@ -5,9 +5,10 @@ var gulp = require('gulp'),
 
 var env,
     outputDir,
+    jsSources,
     sassStyle;
 
-env = process.env.NODE_ENV || 'production';
+env = process.env.NODE_ENV || 'development';
 
 if (env==='development') {
   outputDir = 'development/';
@@ -16,6 +17,11 @@ if (env==='development') {
   outputDir = 'production/';
   sassStyle = 'compressed';
 }
+
+jsSources = [
+  'development/js/app.js', 
+  'development/js/controllers.js'
+];
 
 gulp.task('sass', function(){
   return gulp.src('development/css/styles.scss')
@@ -28,11 +34,29 @@ gulp.task('sass', function(){
     }))
 });
 
-gulp.task('watch', ['browserSync', 'sass'], function(){
+gulp.task('js', function() {
+  gulp.src(jsSources)
+      // .pipe(concat('scripts.js'))
+      .pipe(gulp.dest(outputDir + 'js'))
+      .pipe(browserSync.reload({
+        stream: true
+      }))
+});
+
+gulp.task('json', function(){
+  gulp.src('development/js/*.json')
+    //.pipe(gulpif(env === 'production', jsonminify()))
+    .pipe(gulpif(env === 'production', gulp.dest('production/js')))
+    .pipe(browserSync.reload({
+      stream: true
+    }))
+})
+
+gulp.task('watch', ['browserSync', 'js', 'json', 'sass'], function(){
   gulp.watch('development/css/*.scss', ['sass']); 
   gulp.watch('development/*.html', browserSync.reload); 
-  gulp.watch('development/js/*.js', browserSync.reload); 
-  gulp.watch('development/js/*.json', browserSync.reload); 
+  gulp.watch(jsSources, ['js']); 
+  gulp.watch('development/js/*.json', ['json']); 
 });
 
 gulp.task('browserSync', function() {
@@ -43,5 +67,4 @@ gulp.task('browserSync', function() {
   })
 })
 
-
-gulp.task('default', ['sass', 'watch']);
+gulp.task('default', ['sass', 'js', 'json', 'watch']);
