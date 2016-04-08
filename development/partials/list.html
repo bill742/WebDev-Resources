@@ -1,7 +1,0 @@
-<ul class="list-group">
-    <li class="list-group-item" ng-repeat="l in links | filter: query | orderBy: 'name'" ng-show="{{ l.active }}">
-        <h3>{{ l.name }}</h3>
-        <p><strong>Category:</strong> {{ l.category }}</p>
-        <p><a href="http://{{ l.url }}" target="_blank">{{ l.url }}</a></p>
-    </li>
-</ul>

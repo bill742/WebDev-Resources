@@ -1,7 +1,0 @@
-<h2><span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>Podcasts</h2>
-<ul class="list-group">
-    <li class="list-group-item" ng-repeat="l in links | filter: query | orderBy: 'name'" ng-show="l.category == 'Podcasts'">
-        <h3>{{ l.name }}</h3>
-        <p><a href="http://{{ l.url }}" target="_blank">{{ l.url }}</a></p>
-    </li>
-</ul>
