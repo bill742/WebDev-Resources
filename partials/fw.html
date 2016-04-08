@@ -1,0 +1,8 @@
+<h2><span class="glyphicon glyphicon-cog" aria-hidden="true"></span>Frameworks</h2>
+<ul class="list-group">
+    <li class="list-group-item" ng-repeat="l in links | filter: query | orderBy: 'subcategory'" ng-show="l.category == 'Frameworks'">
+        <h3>{{ l.name }}</h3>
+        <h4>{{ l.subcategory }}</h4>
+        <p><a href="http://{{ l.url }}" target="_blank">{{ l.url }}</a></p>
+    </li>
+</ul>
