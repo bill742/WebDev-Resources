@@ -3,6 +3,7 @@ var gulp = require('gulp'),
     gulpif = require('gulp-if'),
     browserSync = require('browser-sync'),
     concat = require('gulp-concat');
+    uglify = require('gulp-uglify');
 
 var outputDir,
     jsSources,
@@ -42,6 +43,7 @@ gulp.task('css', function(){
 gulp.task('js', function() {
   gulp.src(jsSources)
       .pipe(concat('scripts.js'))
+      .pipe(uglify())
       .pipe(gulp.dest('js'))
       .pipe(browserSync.reload({
         stream: true
@@ -78,7 +80,7 @@ gulp.task('watch', ['browserSync', 'js', 'misc', 'sass', 'partials'], function()
 gulp.task('browserSync', function() {
   browserSync({
     server: {
-      //baseDir: 'production'
+      baseDir: "./"
     },
   });
 });
