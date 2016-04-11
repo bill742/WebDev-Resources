@@ -9,7 +9,8 @@ var outputDir,
     sassStyle;
 
 cssSources = [
-  'css/bootstrap.min.css'
+  'css/bootstrap.min.css',
+  'css/styles.css'
 ];
 
 jsSources = [
@@ -31,6 +32,7 @@ gulp.task('sass', function(){
 
 gulp.task('css', function(){
 	gulp.src(cssSources)
+    .pipe(concat('styles.min.css'))
 		.pipe(gulp.dest('css'))
     .pipe(browserSync.reload({
       stream: true
