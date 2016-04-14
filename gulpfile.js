@@ -71,8 +71,9 @@ gulp.task('misc', function(){
     }));
 });
 
-gulp.task('watch', ['browserSync', 'js', 'misc', 'sass', 'partials'], function(){
+gulp.task('watch', ['browserSync', 'js', 'misc', 'sass', 'css', 'partials'], function(){
   gulp.watch('css/*.sass', ['sass']);
+  gulp.watch('css/*.css', ['css']);
   gulp.watch('*.html', ['html']);
   gulp.watch(jsSources, ['js']);
 });
