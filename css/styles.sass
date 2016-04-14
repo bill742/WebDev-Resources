@@ -1,42 +1,43 @@
 // Variables
-$brown1: #b36b3d
-$brown2: #fccbaa
-$brown3: #552100
-$brown4: #803f15
-$brown5: #d4946a
+$primary: #fccbaa
+$secondary: #552100
+$accent1: #d4946a
+$accent2: #803f15
 $full-size: 1200px
 
 //   Styles
 body
   font-size: 16px
-  background: $brown1
-  color: $brown3
+  background: $primary
+  color: $secondary
 
 // Typography
 h1
   margin-top: 10px
-  color: $brown5
+  color: $primary
 
 h2
-  color: $brown2
+  color: $primary
   margin-top: 0
 
 h3
-  color: $brown3
+  color: $secondary
+  margin-top: 0
 
 // Header
 header
-  background-color: $brown3
+  background-color: $secondary
   padding: 20px 0
   margin: 0 auto 20px
   overflow-y: auto
 
   p
-    color: $brown5
+    color: $accent1
+    font-size: 1.2em
 
 //Search
 .search
-  background-color: $brown3
+  background-color: $secondary
   margin-top: 10px
 
   h2
@@ -53,57 +54,66 @@ ul.cat-list
   margin: 0 0 10px
   padding: 0
 
-  li a
-    color: $brown2
-    background-color: $brown3
-    border-bottom: 1px solid $brown4
-    text-decoration: none
-    display: block
-    padding: 20px 10px
+  li
+    border-right: 1px solid $accent2
+    border-bottom: 1px solid $accent2
+    border-left: 1px solid $accent2
 
-    &:focus,
-    &:hover
-      color: $brown3
-      background-color: $brown2
+    &:first-child
+      border-top: 1px solid $accent2
+
+    a
+      color: $primary
+      background-color: $secondary
+      text-decoration: none
+      line-height: 1
+      display: block
+      padding: 20px 10px
+
+      &:focus,
+      &:hover
+        color: $secondary
+        background-color: $primary
 
 .glyphicon
   margin-right: 8px
-  float: left
 
 // Link List
 section
   max-width: 1200px
 
   h2
-    line-height: 30px
-    margin-bottom: 20px
+    color: $accent2
+    display: inline
+    vertical-align: top
+
+.list-group
+  margin-top: 20px
 
 .list-group-item
-  background-color: $brown2
-  color: $brown3
-  border-top: 1px solid $brown1
-  border-right: none
-  border-bottom: none
-  border-left: none
+  background-color: $accent1
+  color: $secondary
+  padding: 12px 15px 2px
+  margin-bottom: 1px
+  border: none
 
   &:first-child
-    border-top: none
+    border-radius: 0
 
   a
-    color: $brown4
+    color: $accent2
 
   h2
-    background-color: $brown3
-    color: $brown2
+    background-color: $secondary
 
 // Footer
 footer
   clear: both
-  background-color: $brown3
+  background-color: $secondary
   padding: 20px 0
 
   p
-    color: #fff
+    color: $primary
     font-size: 0.8em
     margin-bottom: 0
 
