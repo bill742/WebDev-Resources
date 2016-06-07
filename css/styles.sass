@@ -1,5 +1,6 @@
 // Variables
-$primary: #fccbaa
+$primary: #fff
+//$primary: #fccbaa
 $secondary: #552100
 $accent1: #d4946a
 $accent2: #803f15
@@ -8,8 +9,8 @@ $full-size: 1200px
 //   Styles
 body
   font-size: 16px
-  background: $primary
   color: $secondary
+  background-color: $primary
 
 // Typography
 h1
@@ -17,7 +18,7 @@ h1
   color: $primary
 
 h2
-  color: $primary
+  color: $accent1
   margin-top: 0
 
 h3
@@ -32,13 +33,13 @@ header
   overflow-y: auto
 
   p
-    color: $accent1
+    color: $primary
     font-size: 1.2em
 
 //Search
 .search
-  background-color: $secondary
   margin-top: 10px
+  position: relative
 
   h2
     text-align: right
@@ -47,6 +48,13 @@ header
     padding: 4px
     width: 100%
     border-radius: 8px
+
+  .close-btn
+    margin-top: -30px
+    position: absolute
+    right: 20px
+    border: none
+    background-color: transparent
 
 // Navagation
 ul.cat-list
@@ -91,11 +99,11 @@ section
   margin-top: 20px
 
 .list-group-item
-  background-color: $accent1
+  //background-color: $accent1
   color: $secondary
   padding: 12px 15px 2px
   margin-bottom: 1px
-  border: none
+  border: 1px solid $secondary
 
   &:first-child
     border-radius: 0
@@ -113,7 +121,7 @@ footer
   padding: 20px 0
 
   p
-    color: $primary
+    color: $accent1
     font-size: 0.8em
     margin-bottom: 0
 
