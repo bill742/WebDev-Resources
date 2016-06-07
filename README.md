@@ -3,7 +3,7 @@ A resource page of links for everyday Web Development.
 
 The app uses AngularJS (1.4.3) to import, display and sort the data. The search function uses Angular's data binding feature to dynamically load results. Bootstrap 3.3.5 is also used to provide responsive functionality.
 
-[Demo](https://cdn.rawgit.com/bill742/WebDev-Resources/master/)
+[Demo](https://rawgit.com/bill742/WebDev-Resources/master/)
 
 **TODO:**
 + Add more links and categories
